@@ -1,0 +1,16 @@
+{
+  "name": "todo_list",
+  "version": "0.0.1",
+  "description": "Server test",
+  "dependencies": {
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
+}

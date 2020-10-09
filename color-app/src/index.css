@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding: 30px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.star {
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+	margin: 2px;
+	float: left;
+	background-color: grey;
+	clip-path: polygon(
+		50% 0%,
+		63% 38%,
+		100% 38%,
+		69% 59%,
+		82% 100%,
+		50% 75%,
+		18% 100%,
+		31% 59%,
+		0% 38%,
+		37% 38%
+	);
+}
+.star.selected {
+	background-color: red;
+}
+
+.app{
+	width: 40%;
+}
+
+form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.color-list {
+	margin-top: 10px;
+}
+
+h1 {
+	margin: 10px 0;
+}
+
+section.color {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	position: relative;
+	margin: 5px 10px;
+	-webkit-box-shadow: 5px 5px 16px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 16px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 16px 0px rgba(0,0,0,0.75);
+}
+
+section button {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+div.color {
+	width: 100%;
+	height: 100px;
+}
+
+.rating{
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+}
